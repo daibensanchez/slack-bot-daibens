@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\daibens\Documents\Probationary\PYTHON\REPOSITORY\slack-bot-daibens\bot"
+set "VIRTUAL_ENV=C:\Users\daibens\Desktop\SLACKBOT\testbot"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
@@ -9,7 +9,7 @@ if defined _OLD_VIRTUAL_PROMPT (
     )
     set "_OLD_VIRTUAL_PROMPT=%PROMPT%"
 )
-set "PROMPT=(bot) %PROMPT%"
+set "PROMPT=(testbot) %PROMPT%"
 
 REM Don't use () to avoid problems with them in %PATH%
 if defined _OLD_VIRTUAL_PYTHONHOME goto ENDIFVHOME

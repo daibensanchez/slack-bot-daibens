@@ -1,3 +1,4 @@
+import os
 from os import environ
 import time
 import re
@@ -9,6 +10,7 @@ from slackclient import SlackClient
 import sched, time
 
 # instantiate Slack client
+print (environ.get('SLACK_BOT_TOKEN'))
 slack_client = SlackClient(environ.get('SLACK_BOT_TOKEN'))
 # starterbot's user ID in Slack: value is assigned after the bot starts up
 starterbot_id = None
